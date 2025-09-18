@@ -1,5 +1,16 @@
 # Changelog
 
+## \[2.4.1]
+
+### Bug Fixes
+
+- [`69476d8e2`](https://www.github.com/tauri-apps/tauri/commit/69476d8e2314b85bf46046140bc5495fe29b7d29) ([#14170](https://www.github.com/tauri-apps/tauri/pull/14170) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Fix the stack overflow when having too many commands in a single invoke handler in release build
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.0`
+- Upgraded to `tauri-codegen@2.4.1`
+
 ## \[2.4.0]
 
 ### Dependencies

@@ -1,5 +1,25 @@
 # Changelog
 
+## \[2.9.0]
+
+### New Features
+
+- [`f5851ee00`](https://www.github.com/tauri-apps/tauri/commit/f5851ee00d6d1f4d560a220ca5a728fedd525092) ([#14089](https://www.github.com/tauri-apps/tauri/pull/14089) by [@Themayu](https://www.github.com/tauri-apps/tauri/../../Themayu)) Adds the `scroll_bar_style` option to the Webview and WebviewWindow builders.
+  The possible values for this option are gated behind conditional compilation
+  flags, and will need to be applied using conditional compilation if customised.
+
+### Bug Fixes
+
+- [`69476d8e2`](https://www.github.com/tauri-apps/tauri/commit/69476d8e2314b85bf46046140bc5495fe29b7d29) ([#14170](https://www.github.com/tauri-apps/tauri/pull/14170) by [@Legend-Master](https://www.github.com/tauri-apps/tauri/../../Legend-Master)) Fix the stack overflow when having too many commands in a single invoke handler in release build
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.0`
+- Upgraded to `tauri-runtime-wry@2.9.0`
+- Upgraded to `tauri-runtime@2.9.0`
+- Upgraded to `tauri-macros@2.4.1`
+- Upgraded to `tauri-build@2.4.2`
+
 ## \[2.8.5]
 
 ### Enhancements

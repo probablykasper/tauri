@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.7.0]
+
+### New Features
+
+- [`2a06d1006`](https://www.github.com/tauri-apps/tauri/commit/2a06d10066a806e392efe8bfb16d943ee0b0b61d) ([#14052](https://www.github.com/tauri-apps/tauri/pull/14052) by [@ShigrafS](https://www.github.com/tauri-apps/tauri/../../ShigrafS)) Add a `--no-sign` flag to the `tauri build` and `tauri bundle` commands to skip the code signing step, improving the developer experience for local testing and development without requiring code signing keys.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.0`
+
 ## \[2.6.1]
 
 ### Bug Fixes

@@ -1,5 +1,16 @@
 # Changelog
 
+## \[2.9.0]
+
+### Enhancements
+
+- [`1a6627ee7`](https://www.github.com/tauri-apps/tauri/commit/1a6627ee7d085a4e66784e2705254714d68c7244) ([#14122](https://www.github.com/tauri-apps/tauri/pull/14122) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Set a default log level filter when running `tauri add log`.
+- [`f6622a3e3`](https://www.github.com/tauri-apps/tauri/commit/f6622a3e342f5dd5fb3cf6e0f79fb309a10e9b3d) ([#14129](https://www.github.com/tauri-apps/tauri/pull/14129) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Prompt to install the iOS platform if it isn't installed yet.
+
+### Dependencies
+
+- Upgraded to `tauri-cli@2.9.0`
+
 ## \[2.8.4]
 
 ### Enhancements

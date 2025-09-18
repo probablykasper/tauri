@@ -1,5 +1,22 @@
 # Changelog
 
+## \[2.9.0]
+
+### New Features
+
+- [`f5851ee00`](https://www.github.com/tauri-apps/tauri/commit/f5851ee00d6d1f4d560a220ca5a728fedd525092) ([#14089](https://www.github.com/tauri-apps/tauri/pull/14089) by [@Themayu](https://www.github.com/tauri-apps/tauri/../../Themayu)) Adds the `scrollBarStyle` option to the window configuration.
+- [`2a06d1006`](https://www.github.com/tauri-apps/tauri/commit/2a06d10066a806e392efe8bfb16d943ee0b0b61d) ([#14052](https://www.github.com/tauri-apps/tauri/pull/14052) by [@ShigrafS](https://www.github.com/tauri-apps/tauri/../../ShigrafS)) Add a `--no-sign` flag to the `tauri build` and `tauri bundle` commands to skip the code signing step, improving the developer experience for local testing and development without requiring code signing keys.
+
+### Enhancements
+
+- [`1a6627ee7`](https://www.github.com/tauri-apps/tauri/commit/1a6627ee7d085a4e66784e2705254714d68c7244) ([#14122](https://www.github.com/tauri-apps/tauri/pull/14122) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Set a default log level filter when running `tauri add log`.
+- [`f6622a3e3`](https://www.github.com/tauri-apps/tauri/commit/f6622a3e342f5dd5fb3cf6e0f79fb309a10e9b3d) ([#14129](https://www.github.com/tauri-apps/tauri/pull/14129) by [@lucasfernog](https://www.github.com/tauri-apps/tauri/../../lucasfernog)) Prompt to install the iOS platform if it isn't installed yet.
+
+### Dependencies
+
+- Upgraded to `tauri-utils@2.8.0`
+- Upgraded to `tauri-bundler@2.7.0`
+
 ## \[2.8.4]
 
 ### Enhancements

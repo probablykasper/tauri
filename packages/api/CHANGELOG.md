@@ -1,5 +1,15 @@
 # Changelog
 
+## \[2.9.0]
+
+### New Features
+
+- [`f5851ee00`](https://www.github.com/tauri-apps/tauri/commit/f5851ee00d6d1f4d560a220ca5a728fedd525092) ([#14089](https://www.github.com/tauri-apps/tauri/pull/14089) by [@Themayu](https://www.github.com/tauri-apps/tauri/../../Themayu)) Adds the `scrollBarStyle` option to the Webview and WebviewBuilder constructors.
+
+### Enhancements
+
+- [`59089723f`](https://www.github.com/tauri-apps/tauri/commit/59089723fc20d66f3f305f2008adeb279bf87462) ([#14091](https://www.github.com/tauri-apps/tauri/pull/14091) by [@FabianLars](https://www.github.com/tauri-apps/tauri/../../FabianLars)) Added a config to set a data_directory relative to the app-specific data dir in JavaScript and `tauri.conf.json`.
+
 ## \[2.8.0]
 
 ### New Features
